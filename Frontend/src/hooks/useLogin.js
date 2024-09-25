@@ -11,7 +11,6 @@ const useLogin = () => {
       password,
     });
     if (!success) return;
-    console.log("in login component" + username, password);
     setLoading(true);
     try {
       const res = await fetch(`/api/auth/login`, {

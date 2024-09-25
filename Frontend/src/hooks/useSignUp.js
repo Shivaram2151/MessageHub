@@ -12,7 +12,6 @@ const useSignUp = () => {
     confirmPassword,
     gender,
   }) => {
-    console.log("values", fullName, username, password);
     const success = handleInputErrors({
       fullName,
       username,
